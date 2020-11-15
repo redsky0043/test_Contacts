@@ -37,7 +37,7 @@ export const Contacts = () => {
                     </Typography>
                 </Grid>
                 <Grid item xs={12}>
-                    <div> Contacts {contacts.data[0].name.first} </div>
+                    <div> {contacts.data[0].name.first} </div>
                 </Grid>
             </Grid>
         </Container>
